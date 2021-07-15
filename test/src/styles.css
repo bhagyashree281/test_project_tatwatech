@@ -1,0 +1,112 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.input_wrapper{
+width: 30vw;
+background-color:#cd853f66;
+height: 70vh;
+box-shadow: 3px solid #cd853f66;
+}
+
+.input_div{
+    margin: 3%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+h2{
+    margin: 3%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.input_elm{
+    width: 100%;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    border: none;
+}
+
+ button {
+    background-color: #3f51b5;
+    cursor: pointer;
+    color: white !important;
+    border: none;
+}
+
+.already_registered{
+    margin: 3%;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+
+.already_registered > a{
+    cursor: pointer;
+}
+
+.opt_icon{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color:white;
+    padding: 3px;
+}
+
+.opt_icon:hover{
+    background-color: #3f51b5;
+    color: white;
+    padding: 3px;
+    transition: ease-in;
+    cursor: pointer;
+}
+
+.effect5
+{
+  position: relative;
+}
+.effect5:before, .effect5:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.effect5:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
+.MuiDialog-paper{
+    background-color: cadetblue !important;
+}
